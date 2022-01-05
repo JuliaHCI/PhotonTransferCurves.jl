@@ -1,0 +1,7 @@
+name = "PhotonTransferCurves"
+uuid = "e5a6201a-b611-4d47-a568-810a6b7e49b8"
+authors = ["Miles Lucas <mdlucas@hawaii.edu> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.6"
