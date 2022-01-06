@@ -44,7 +44,7 @@ Loads a tuple of the signal and total noise from the Appendix A table A.1 from J
 julia> data = testdata();
 
 julia> size(data.S)
-43
+(43,)
 ```
 
 [^1]: James R. Janesick, 2007, ["Photon Transfer"](https://www.spiedigitallibrary.org/ebooks/PM/Photon-Transfer/eISBN-9780819478382/10.1117/3.725073?SSO=1), SPIE
