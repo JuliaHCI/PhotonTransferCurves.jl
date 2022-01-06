@@ -61,7 +61,7 @@ jobs:
           version: '1'
       - uses: julia-actions/julia-buildpkg@v1
       - run: julia -e 'using Pkg; Pkg.add("Aqua")'
-      - run: julia --project=@. -e 'using Aqua, PhotonTransferCurves; Aqua.test_all(PhotonTransferCurves)'
+      - run: julia --project=@. -e 'using Aqua, PhotonTransferCurves; Aqua.test_all(PhotonTransferCurves, ambiguities=false)'
   docs:
     name: Documentation
     runs-on: ubuntu-latest
