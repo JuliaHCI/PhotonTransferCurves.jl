@@ -10,6 +10,12 @@ CurrentModule = PhotonTransferCurves
 [![Coverage](https://codecov.io/gh/JuliaAstro/PhotonTransferCurves.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/JuliaAstro/PhotonTransferCurves.jl)
 [![License](https://img.shields.io/github/license/JuliaAstro/PhotonTransferCurves.jl?color=yellow)](https://github.com/JuliaAstro/PhotonTransferCurves.jl/blob/main/LICENSE)
 
+Photon transfer curves (PTC) for methodically characterizing CCD and CMOS detectors. This module provides models for PTCs with varying complexity, ready for fitting to recorded data.
+
+## Installation
+
+## Usage
+
 ## API/Reference
 
 ```@index
