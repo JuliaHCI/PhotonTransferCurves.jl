@@ -6,11 +6,11 @@ DocMeta.setdocmeta!(PhotonTransferCurves, :DocTestSetup, :(using PhotonTransferC
 makedocs(;
     modules=[PhotonTransferCurves],
     authors="Miles Lucas <mdlucas@hawaii.edu> and contributors",
-    repo="https://github.com/JuliaAstro/PhotonTransferCurves.jl/blob/{commit}{path}#{line}",
+    repo="https://github.com/JuliaPhysics/PhotonTransferCurves.jl/blob/{commit}{path}#{line}",
     sitename="PhotonTransferCurves.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://JuliaAstro.github.io/PhotonTransferCurves.jl",
+        canonical="https://JuliaPhysics.github.io/PhotonTransferCurves.jl",
         assets=String[],
     ),
     pages=[
@@ -19,6 +19,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/JuliaAstro/PhotonTransferCurves.jl",
+    repo="github.com/JuliaPhysics/PhotonTransferCurves.jl",
     devbranch="main",
 )
