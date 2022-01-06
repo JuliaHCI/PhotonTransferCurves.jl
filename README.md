@@ -8,7 +8,7 @@
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaPhysics.github.io/PhotonTransferCurves.jl/stable)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://JuliaPhysics.github.io/PhotonTransferCurves.jl/dev)
 
-Photon transfer curves (PTC) for methodically characterizing CCD and CMOS detectors. This module provides models for PTCs with varying complexity, ready for fitting to recorded data.
+Photon transfer curves (PTCs) for methodically characterizing CCD and CMOS detectors. This module provides models for PTCs with varying complexity, ready for fitting to recorded data.
 
 ## Installation
 
