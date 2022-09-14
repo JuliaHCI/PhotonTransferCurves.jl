@@ -13,7 +13,6 @@ end
 
 function process_single_frame(frame::AbstractMatrix; window_size=30, kwargs...)
     window_size = _normalize_window_size(window_size)
-    output =
 end
 
 _normalize_window_size(n::NTuple{2, <:Integer}) = n
