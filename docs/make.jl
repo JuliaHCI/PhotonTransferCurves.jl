@@ -1,7 +1,12 @@
+using BiweightStats
 using PhotonTransferCurves
 using Documenter
 
-DocMeta.setdocmeta!(PhotonTransferCurves, :DocTestSetup, :(using PhotonTransferCurves); recursive=true)
+setup = quote
+    using BiweightStats
+    using PhotonTransferCurves
+end
+DocMeta.setdocmeta!(PhotonTransferCurves, :DocTestSetup, setup; recursive=true)
 
 makedocs(;
     modules=[PhotonTransferCurves],
@@ -15,7 +20,9 @@ makedocs(;
     ),
     pages=[
         "Home" => "index.md",
-        "Background" => "background.md"
+        "Background" => "background.md",
+        "Usage" => "usage.md",
+        "API/Reference" => "api.md"
     ],
 )
 
