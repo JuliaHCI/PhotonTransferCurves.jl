@@ -1,4 +1,6 @@
 [deps]
+AstroImages = "fe3fc30c-9b16-11e9-1c73-17dabf39f4ad"
+BiweightStats = "5bf8a1e9-d5f8-4697-9608-80edd97af0ad"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
 PhotonTransferCurves = "e5a6201a-b611-4d47-a568-810a6b7e49b8"
